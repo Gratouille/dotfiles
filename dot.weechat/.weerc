@@ -1,0 +1,85 @@
+#
+# WeeChat 1.9.1 (compiled on Mar  1 2018)
+#
+# Use /autoconf load or cat this file to the FIFO pipe.
+#
+# For more info, see https://weechat.org/scripts/source/autoconf.py.html
+#
+
+*/set Option modifiée : weechat.look.bar_more_down "▼"
+*/set Option modifiée : weechat.look.bar_more_left "◀"
+*/set Option modifiée : weechat.look.bar_more_right "▶"
+*/set Option modifiée : weechat.look.bar_more_up "▲"
+*/set Option modifiée : weechat.look.buffer_time_format "${color:252}%H${color:245}%M${color:240}%S"
+*/set Option modifiée : weechat.look.item_buffer_filter "•"
+*/set Option modifiée : weechat.look.mouse on
+*/set Option modifiée : weechat.look.prefix_join "▬▬▶"
+*/set Option modifiée : weechat.look.prefix_quit "◀▬▬"
+*/set Option modifiée : weechat.look.prefix_suffix "│"
+*/set Option modifiée : weechat.look.read_marker_string "─"
+*/set Option modifiée : weechat.color.chat_delimiters 29
+*/set Option modifiée : weechat.color.chat_host 24
+*/set Option modifiée : weechat.color.chat_nick_colors "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"
+*/set Option modifiée : weechat.color.chat_nick_self _white
+*/set Option modifiée : weechat.color.chat_prefix_suffix 24
+*/set Option modifiée : weechat.color.chat_time 214
+*/set Option modifiée : weechat.color.nicklist_away 244
+*/set Option modifiée : weechat.color.separator 60
+*/set Option modifiée : weechat.bar.buflist.items "buflist"
+*/set Option modifiée : irc.color.reason_quit 244
+*/set Option modifiée : irc.color.topic_new 36
+*/set Option modifiée : irc.color.topic_old 244
+*/set Option modifiée : weechat.bar.input.items "+buffer_short_name [+mode_indicator+(away)+ input_search+ input_paste+ vi_buffer+] input_text+minimal"
+*/set Option modifiée : weechat.color.chat 36
+*/set Option modifiée : weechat.color.chat_delimiters 238
+*/set Option modifiée : weechat.color.chat_inactive_window 240
+*/set Option modifiée : weechat.color.chat_inactive_window 230
+*/set Option modifiée : weechat.color.chat_inactive_window 239
+*/set Option modifiée : weechat.color.chat_inactive_window 245
+*/set Option modifiée : weechat.color.chat_prefix_more 238
+*/set Option modifiée : weechat.color.chat_prefix_suffix 196
+*/set Option modifiée : weechat.color.chat_prefix_suffix 12
+*/set Option modifiée : weechat.color.status_name 202
+*/set Option modifiée : weechat.look.buffer_notify_default message
+*/set Option modifiée : weechat.look.buffer_time_format ""
+*/set Option modifiée : weechat.color.chat_inactive_window 249
+*/set Option modifiée : weechat.look.color_real_white on
+*/set Option modifiée : weechat.look.color_real_white on
+*/set Option modifiée : weechat.color.chat 40
+*/set Option modifiée : weechat.color.chat 15
+*/set Option modifiée : weechat.color.chat 15
+*/set Option modifiée : weechat.look.save_layout_on_exit all
+*/set Option modifiée : weechat.look.save_layout_on_exit all
+*/set Option modifiée : weechat.look.separator_vertical " "
+*/set weechat.look.bar_more_down "▼"
+*/set weechat.look.bar_more_left "◀"
+*/set weechat.look.bar_more_right "▶"
+*/set weechat.look.bar_more_up "▲"
+*/set weechat.look.buffer_notify_default message
+*/set weechat.look.buffer_time_format ""
+*/set weechat.look.color_real_white on
+*/set weechat.look.item_buffer_filter "•"
+*/set weechat.look.mouse on
+*/set weechat.look.prefix_join "▬▬▶"
+*/set weechat.look.prefix_quit "◀▬▬"
+*/set weechat.look.prefix_suffix "│"
+*/set weechat.look.read_marker_string "─"
+*/set weechat.look.save_layout_on_exit all
+*/set weechat.look.separator_vertical " "
+*/set weechat.color.chat 15
+*/set weechat.color.chat_delimiters 238
+*/set weechat.color.chat_host 24
+*/set weechat.color.chat_inactive_window 249
+*/set weechat.color.chat_nick_colors "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"
+*/set weechat.color.chat_nick_self _white
+*/set weechat.color.chat_prefix_more 238
+*/set weechat.color.chat_prefix_suffix 12
+*/set weechat.color.chat_time 214
+*/set weechat.color.nicklist_away 244
+*/set weechat.color.separator 60
+*/set weechat.color.status_name 202
+*/set weechat.bar.buflist.items "buflist"
+*/set weechat.bar.input.items "+buffer_short_name [+mode_indicator+(away)+ input_search+ input_paste+ vi_buffer+] input_text+minimal"
+*/set irc.color.reason_quit 244
+*/set irc.color.topic_new 36
+*/set irc.color.topic_old 244

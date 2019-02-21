@@ -1,0 +1,518 @@
+2019-02-21 10:07:45		Nouvelle touche (contexte "default") : meta-meta-OQ => /bar scroll buflist * e
+2019-02-21 10:07:45		Nouvelle touche (contexte "default") : meta-meta-OP => /bar scroll buflist * b
+2019-02-21 10:07:45		Nouvelle touche (contexte "default") : meta-OQ => /bar scroll buflist * +100%
+2019-02-21 10:07:45		Nouvelle touche (contexte "default") : meta-OP => /bar scroll buflist * -100%
+2019-02-21 10:07:45		Extensions chargées : alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-02-21 10:08:10		irc : serveur QuakeNet ajouté
+2019-02-21 10:08:25	=!=	Erreur : option "irc.quakenet.org.nicks" non trouvée
+2019-02-21 10:08:34	=!=	irc : la commande "nick" doit être exécutée sur un tampon irc (serveur ou canal)
+2019-02-21 10:09:06	=!=	Erreur : option "irc.quakenet.org.autoconnect" non trouvée
+2019-02-21 10:09:36		[irc]  /server  list|listfull [<serveur>]
+2019-02-21 10:09:36		                add <serveur> <nom>[/<port>] [-temp] [-<option>[=<valeur>]] [-no<option>]
+2019-02-21 10:09:36		                copy|rename <serveur> <nouveau_nom>
+2019-02-21 10:09:36		                reorder <serveur> [<serveur>...]
+2019-02-21 10:09:36		                open <serveur>|-all [<serveur>...]
+2019-02-21 10:09:36		                del|keep <serveur>
+2019-02-21 10:09:36		                deloutq|jump|raw
+2019-02-21 10:09:36		lister, ajouter ou retirer des serveurs IRC
+2019-02-21 10:09:36		    list : afficher les serveurs (sans paramètre, cette liste est affichée)
+2019-02-21 10:09:36		listfull : afficher les serveurs avec de l'info détaillée pour chaque
+2019-02-21 10:09:36		     add : ajouter un nouveau serveur
+2019-02-21 10:09:36		 serveur : nom du serveur, pour usage interne et affichage
+2019-02-21 10:09:36		     nom : nom ou adresse IP du serveur avec port en option (défaut : 6667), plusieurs adresses peuvent être séparées par une virgule
+2019-02-21 10:09:36		   -temp : ajouter un serveur temporaire (non sauvé)
+2019-02-21 10:09:36		  option : définir l'option pour le serveur (pour une option booléenne, la valeur peut être omise)
+2019-02-21 10:09:36		nooption : définir l'option booléenne à 'off' (par exemple : -nossl)
+2019-02-21 10:09:36		    copy : dupliquer un serveur
+2019-02-21 10:09:36		  rename : renommer un serveur
+2019-02-21 10:09:36		 reorder : réordonner la liste des serveurs
+2019-02-21 10:09:36		    open : ouvrir le tampon du serveur sans s'y connecter
+2019-02-21 10:09:36		    keep : garder le serveur dans le fichier de configuration (pour les serveurs temporaires seulement)
+2019-02-21 10:09:36		     del : supprimer un serveur
+2019-02-21 10:09:36		 deloutq : supprimer la file d'attente des messages sortants pour tous les serveurs (tous les messages que WeeChat est actuellement en train d'envoyer)
+2019-02-21 10:09:36		    jump : sauter au tampon du serveur
+2019-02-21 10:09:36		     raw : ouvre le tampon avec les données brutes IRC
+2019-02-21 10:09:36		Exemples :
+2019-02-21 10:09:36		  /server listfull
+2019-02-21 10:09:36		  /server add freenode chat.freenode.net
+2019-02-21 10:09:36		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2019-02-21 10:09:36		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2019-02-21 10:09:36		  /server copy freenode freenode-test
+2019-02-21 10:09:36		  /server rename freenode-test freenode2
+2019-02-21 10:09:36		  /server reorder freenode2 freenode
+2019-02-21 10:09:36		  /server del freenode
+2019-02-21 10:09:36		  /server deloutq
+2019-02-21 10:11:49		fifo : tube fermé
+2019-02-21 10:11:52		Extensions chargées : alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-02-21 10:13:48		Tous les serveurs :
+2019-02-21 10:13:48		   QuakeNet
+2019-02-21 10:14:05		script : téléchargement de la liste des scripts...
+2019-02-21 10:14:05		script : 358 scripts pour WeeChat 1.9.1
+2019-02-21 10:14:19		python : chargement du script "/home/gratz/.weechat/python/autoauth.py"
+2019-02-21 10:14:19		python : script "autoauth" chargé, version 1.1 (Auto authentification while changing nick)
+2019-02-21 10:14:39		python : chargement du script "/home/gratz/.weechat/python/autojoin.py"
+2019-02-21 10:14:39		python : script "autojoin" chargé, version 0.3.0 (Configure autojoin for all servers according to currently joined channels)
+2019-02-21 10:15:03		perl : chargement du script "/home/gratz/.weechat/perl/highmon.pl"
+2019-02-21 10:15:03		perl : script "highmon" chargé, version 2.5 (Highlight Monitor)
+2019-02-21 10:15:03		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2019-02-21 10:15:19		python : chargement du script "/home/gratz/.weechat/python/colorize_nicks.py"
+2019-02-21 10:15:19		python : script "colorize_nicks" chargé, version 26 (Use the weechat nick colors in the chat area)
+2019-02-21 10:15:44		perl : chargement du script "/home/gratz/.weechat/perl/atcomplete.pl"
+2019-02-21 10:15:44		perl : script "atcomplete" chargé, version 0.001 (atcomplete - do nick completion following @)
+2019-02-21 10:16:02		python : chargement du script "/home/gratz/.weechat/python/autoconf.py"
+2019-02-21 10:16:02		python : script "autoconf" chargé, version 0.3 (auto save/load changed options in a ~/.weerc file, useful to share dotfiles with)
+2019-02-21 10:16:12		python : chargement du script "/home/gratz/.weechat/python/autoconnect.py"
+2019-02-21 10:16:12		python : script "autoconnect" chargé, version 0.3.2 (reopens servers and channels opened last time weechat closed)
+2019-02-21 10:17:52		lua : chargement du script "/home/gratz/.weechat/lua/emoji.lua"
+2019-02-21 10:17:52		lua : script "emoji" chargé, version 4 (Emoji output helper)
+2019-02-21 10:18:45		perl : chargement du script "/home/gratz/.weechat/perl/hl_here.pl"
+2019-02-21 10:18:45		perl : script "hl_here" chargé, version 0.2 (Show any highlights in the active buffer)
+2019-02-21 10:19:40		Souris activée
+2019-02-21 10:20:19	=!=	irc : la commande "join" doit être exécutée sur un tampon irc (serveur ou canal)
+2019-02-21 10:20:40		Tous les serveurs :
+2019-02-21 10:20:40		   QuakeNet
+2019-02-21 10:21:44		Options sauvegardées dans irc.conf
+2019-02-21 10:22:25		[look] (weechat.conf)
+2019-02-21 10:22:25		  weechat.look.mouse = on  (défaut : off)
+2019-02-21 10:22:25		[bar] (weechat.conf)
+2019-02-21 10:22:25		  weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 10:22:25		[server_default] (irc.conf)
+2019-02-21 10:22:25		  irc.server_default.nicks = "gratz,gratz1,gratz2,gratz3,gratz4"  (défaut : "")
+2019-02-21 10:22:25		  irc.server_default.username = "gratz"  (défaut : "")
+2019-02-21 10:22:25		[server] (irc.conf)
+2019-02-21 10:22:25		  irc.server.QuakeNet.addresses = "irc.quakenet.org"  (défaut si nul : "")
+2019-02-21 10:22:25		  irc.server.QuakeNet.autoconnect = on  (défaut si nul : off)
+2019-02-21 10:22:25		  irc.server.QuakeNet.autojoin = "#gzcrypto"  (défaut si nul : "")
+2019-02-21 10:22:25		7 options avec valeur changée
+2019-02-21 10:22:25		fifo : tube fermé
+2019-02-21 10:22:27		Scripts perl chargés : atcomplete, highmon, hl_here
+2019-02-21 10:22:27		Scripts python chargés : autoauth, autoconf, autoconnect, autojoin, colorize_nicks
+2019-02-21 10:22:27		Scripts lua chargés : emoji
+2019-02-21 10:22:27		script : 358 scripts pour WeeChat 1.9.1
+2019-02-21 10:22:27		Extensions chargées : alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-02-21 10:22:27		Option modifiée : weechat.look.mouse = on  (défaut : off)
+2019-02-21 10:22:27		Option modifiée : weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 10:22:28		Options sauvegardées dans irc.conf
+2019-02-21 10:22:41		Options sauvegardées dans irc.conf
+2019-02-21 10:22:50		Options sauvegardées dans irc.conf
+2019-02-21 10:26:57		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2019-02-21 10:27:03	QuakeNet#geekzonefr	<gz-> <monsieur_max> salut [bot] Gratz
+2019-02-21 10:27:33	QuakeNet#geekzonefr	<gz-> <Gratz> bien sûr que non.
+2019-02-21 10:28:47	=!=	Erreur : option "weechat.bar.buffers.position" non trouvée
+2019-02-21 10:29:36		Option modifiée : weechat.bar.nicklist.position = top  (défaut : right)
+2019-02-21 10:31:13	=!=	Erreur : commande "/var" inconnue (tapez /help pour l'aide)
+2019-02-21 10:31:18		Liste des barres :
+2019-02-21 10:31:18		  input: window, bottom, hauteur: 1
+2019-02-21 10:31:18		  title: window, top, hauteur: 1
+2019-02-21 10:31:18		  status: window, bottom, hauteur: 1
+2019-02-21 10:31:18		  nicklist: (caché) window, top, hauteur: auto
+2019-02-21 10:31:18		  buflist: root, left, largeur: auto
+2019-02-21 10:34:33	QuakeNet#gzcrypto	<chpo> Gratz: https://github.com/wee-slack/wee-slack pour slack
+2019-02-21 10:36:40		Option modifiée : weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 10:37:00		Option modifiée : weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 10:40:39		Option modifiée : weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 10:40:56		Option modifiée : weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 10:41:18		Option modifiée : weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 10:41:28		Option modifiée : weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 10:41:32		Option modifiée : weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 10:41:36		Option modifiée : weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 10:41:40		Option modifiée : weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 10:41:44		Option modifiée : weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 10:41:48		Option modifiée : weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 10:41:55		Option modifiée : weechat.look.buffer_time_format = "${252}%H${245}%M${240}%S"  (défaut : "%H:%M:%S")
+2019-02-21 10:42:03		Option modifiée : weechat.look.buffer_time_format = "${color:252}%H${color:245}%M${color:240}%S"  (défaut : "%H:%M:%S")
+2019-02-21 10:42:10		Option modifiée : weechat.bar.title.color_bg = 60  (défaut : blue)
+2019-02-21 10:42:15		Option modifiée : weechat.bar.status.color_bg = 60  (défaut : blue)
+2019-02-21 10:42:22		Option modifiée : weechat.color.chat_delimiters = 29  (défaut : green)
+2019-02-21 10:42:25		Option modifiée : weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 10:42:28		Option modifiée : weechat.color.chat_prefix_suffix = 24  (défaut : green)
+2019-02-21 10:42:31		Option modifiée : weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 10:42:34		Option modifiée : weechat.color.separator = 60  (défaut : blue)
+2019-02-21 10:42:38		Option modifiée : irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 10:42:42		Option modifiée : irc.color.topic_new = 36  (défaut : white)
+2019-02-21 10:42:46		Option modifiée : irc.color.topic_old = 244  (défaut : default)
+2019-02-21 10:42:53		Option modifiée : weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 10:44:48		[look] (weechat.conf)
+2019-02-21 10:44:48		  weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 10:44:48		  weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 10:44:48		  weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 10:44:48		  weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 10:44:48		  weechat.look.buffer_time_format = "${color:252}%H${color:245}%M${color:240}%S"  (défaut : "%H:%M:%S")
+2019-02-21 10:44:48		  weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 10:44:48		  weechat.look.mouse = on  (défaut : off)
+2019-02-21 10:44:48		  weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 10:44:48		  weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 10:44:48		  weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 10:44:48		  weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 10:44:48		[color] (weechat.conf)
+2019-02-21 10:44:48		  weechat.color.chat_delimiters = 29  (défaut : green)
+2019-02-21 10:44:48		  weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 10:44:48		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 10:44:48		  weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 10:44:48		  weechat.color.chat_prefix_suffix = 24  (défaut : green)
+2019-02-21 10:44:48		  weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 10:44:48		  weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 10:44:48		  weechat.color.separator = 60  (défaut : blue)
+2019-02-21 10:44:48		[bar] (weechat.conf)
+2019-02-21 10:44:48		  weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 10:44:48		  weechat.bar.nicklist.hidden = on  (défaut : off)
+2019-02-21 10:44:48		  weechat.bar.nicklist.position = top  (défaut : right)
+2019-02-21 10:44:48		  weechat.bar.status.color_bg = 60  (défaut : blue)
+2019-02-21 10:44:48		  weechat.bar.title.color_bg = 60  (défaut : blue)
+2019-02-21 10:44:48		[color] (irc.conf)
+2019-02-21 10:44:48		  irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 10:44:48		  irc.color.topic_new = 36  (défaut : white)
+2019-02-21 10:44:48		  irc.color.topic_old = 244  (défaut : default)
+2019-02-21 10:44:48		[server_default] (irc.conf)
+2019-02-21 10:44:48		  irc.server_default.nicks = "gratz,gratz1,gratz2,gratz3,gratz4"  (défaut : "")
+2019-02-21 10:44:48		  irc.server_default.username = "gratz"  (défaut : "")
+2019-02-21 10:44:48		[server] (irc.conf)
+2019-02-21 10:44:48		  irc.server.QuakeNet.addresses = "irc.quakenet.org"  (défaut si nul : "")
+2019-02-21 10:44:48		  irc.server.QuakeNet.autoconnect = on  (défaut si nul : off)
+2019-02-21 10:44:48		  irc.server.QuakeNet.autojoin = "#gzcrypto,#gzdev,#geekzonefr"  (défaut si nul : "")
+2019-02-21 10:44:48		32 options avec valeur changée
+2019-02-21 10:44:48		fifo : tube fermé
+2019-02-21 10:44:50		Scripts perl chargés : atcomplete, highmon, hl_here
+2019-02-21 10:44:50		Scripts python chargés : autoauth, autoconf, autoconnect, autojoin, colorize_nicks
+2019-02-21 10:44:50		Scripts lua chargés : emoji
+2019-02-21 10:44:50		script : 358 scripts pour WeeChat 1.9.1
+2019-02-21 10:44:50		Extensions chargées : alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-02-21 10:44:50		Option modifiée : weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 10:44:50		Option modifiée : weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 10:44:50		Option modifiée : weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 10:44:50		Option modifiée : weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 10:44:50		Option modifiée : weechat.look.buffer_time_format = "${color:252}%H${color:245}%M${color:240}%S"  (défaut : "%H:%M:%S")
+2019-02-21 10:44:50		Option modifiée : weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 10:44:50		Option modifiée : weechat.look.mouse = on  (défaut : off)
+2019-02-21 10:44:50		Option modifiée : weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 10:44:50		Option modifiée : weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 10:44:50		Option modifiée : weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 10:44:50		Option modifiée : weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 10:44:50		Option modifiée : weechat.color.chat_delimiters = 29  (défaut : green)
+2019-02-21 10:44:50		Option modifiée : weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 10:44:50		Option modifiée : weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 10:44:50		Option modifiée : weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 10:44:50		Option modifiée : weechat.color.chat_prefix_suffix = 24  (défaut : green)
+2019-02-21 10:44:50		Option modifiée : weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 10:44:50		Option modifiée : weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 10:44:50		Option modifiée : weechat.color.separator = 60  (défaut : blue)
+2019-02-21 10:44:50		Option modifiée : weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 10:44:50		Option modifiée : weechat.bar.nicklist.hidden = on
+2019-02-21 10:44:50		Option modifiée : weechat.bar.nicklist.position = top
+2019-02-21 10:44:50		Option modifiée : weechat.bar.status.color_bg = 60
+2019-02-21 10:44:50		Option modifiée : weechat.bar.title.color_bg = 60
+2019-02-21 10:44:50		Option modifiée : irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 10:44:50		Option modifiée : irc.color.topic_new = 36  (défaut : white)
+2019-02-21 10:44:50		Option modifiée : irc.color.topic_old = 244  (défaut : default)
+2019-02-21 10:44:51		Options sauvegardées dans irc.conf
+2019-02-21 10:44:51		Options sauvegardées dans irc.conf
+2019-02-21 10:44:51		Options sauvegardées dans irc.conf
+2019-02-21 10:47:43		Options sauvegardées dans sec.conf
+2019-02-21 10:47:43		Options sauvegardées dans weechat.conf
+2019-02-21 10:47:43		Options sauvegardées dans plugins.conf
+2019-02-21 10:47:43		Options sauvegardées dans charset.conf
+2019-02-21 10:47:43		Options sauvegardées dans logger.conf
+2019-02-21 10:47:43		Options sauvegardées dans exec.conf
+2019-02-21 10:47:43		Options sauvegardées dans trigger.conf
+2019-02-21 10:47:43		Options sauvegardées dans aspell.conf
+2019-02-21 10:47:43		Options sauvegardées dans alias.conf
+2019-02-21 10:47:43		Options sauvegardées dans buflist.conf
+2019-02-21 10:47:43		Options sauvegardées dans fifo.conf
+2019-02-21 10:47:43		Options sauvegardées dans xfer.conf
+2019-02-21 10:47:43		Options sauvegardées dans irc.conf
+2019-02-21 10:47:43		Options sauvegardées dans relay.conf
+2019-02-21 10:47:43		Options sauvegardées dans colorize_nicks.conf
+2019-02-21 10:47:43		Options sauvegardées dans script.conf
+2019-02-21 10:48:01		Options sauvegardées dans sec.conf
+2019-02-21 10:48:01		Options sauvegardées dans weechat.conf
+2019-02-21 10:48:01		Options sauvegardées dans plugins.conf
+2019-02-21 10:48:01		Options sauvegardées dans charset.conf
+2019-02-21 10:48:01		Options sauvegardées dans logger.conf
+2019-02-21 10:48:01		Options sauvegardées dans exec.conf
+2019-02-21 10:48:01		Options sauvegardées dans trigger.conf
+2019-02-21 10:48:01		Options sauvegardées dans aspell.conf
+2019-02-21 10:48:01		Options sauvegardées dans alias.conf
+2019-02-21 10:48:01		Options sauvegardées dans buflist.conf
+2019-02-21 10:48:01		Options sauvegardées dans fifo.conf
+2019-02-21 10:48:01		Options sauvegardées dans xfer.conf
+2019-02-21 10:48:01		Options sauvegardées dans irc.conf
+2019-02-21 10:48:01		Options sauvegardées dans relay.conf
+2019-02-21 10:48:01		Options sauvegardées dans colorize_nicks.conf
+2019-02-21 10:48:01		Options sauvegardées dans script.conf
+2019-02-21 10:48:05		[look] (weechat.conf)
+2019-02-21 10:48:05		  weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 10:48:05		  weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 10:48:05		  weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 10:48:05		  weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 10:48:05		  weechat.look.buffer_time_format = "${color:252}%H${color:245}%M${color:240}%S"  (défaut : "%H:%M:%S")
+2019-02-21 10:48:05		  weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 10:48:05		  weechat.look.mouse = on  (défaut : off)
+2019-02-21 10:48:05		  weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 10:48:05		  weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 10:48:05		  weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 10:48:05		  weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 10:48:05		[color] (weechat.conf)
+2019-02-21 10:48:05		  weechat.color.chat_delimiters = 29  (défaut : green)
+2019-02-21 10:48:05		  weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 10:48:05		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 10:48:05		  weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 10:48:05		  weechat.color.chat_prefix_suffix = 24  (défaut : green)
+2019-02-21 10:48:05		  weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 10:48:05		  weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 10:48:05		  weechat.color.separator = 60  (défaut : blue)
+2019-02-21 10:48:05		[bar] (weechat.conf)
+2019-02-21 10:48:05		  weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 10:48:05		[color] (irc.conf)
+2019-02-21 10:48:05		  irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 10:48:05		  irc.color.topic_new = 36  (défaut : white)
+2019-02-21 10:48:05		  irc.color.topic_old = 244  (défaut : default)
+2019-02-21 10:48:05		[server_default] (irc.conf)
+2019-02-21 10:48:05		  irc.server_default.nicks = "gratz,gratz1,gratz2,gratz3,gratz4"  (défaut : "")
+2019-02-21 10:48:05		  irc.server_default.username = "gratz"  (défaut : "")
+2019-02-21 10:48:05		[server] (irc.conf)
+2019-02-21 10:48:05		  irc.server.QuakeNet.addresses = "irc.quakenet.org"  (défaut si nul : "")
+2019-02-21 10:48:05		  irc.server.QuakeNet.autoconnect = on  (défaut si nul : off)
+2019-02-21 10:48:05		  irc.server.QuakeNet.autojoin = "#gzcrypto,#gzdev,#geekzonefr"  (défaut si nul : "")
+2019-02-21 10:48:05		28 options avec valeur changée
+2019-02-21 10:48:05		fifo : tube fermé
+2019-02-21 10:48:06		Scripts perl chargés : atcomplete, highmon, hl_here
+2019-02-21 10:48:06		Scripts python chargés : autoauth, autoconf, autoconnect, autojoin, colorize_nicks
+2019-02-21 10:48:06		Scripts lua chargés : emoji
+2019-02-21 10:48:06		script : 358 scripts pour WeeChat 1.9.1
+2019-02-21 10:48:06		Extensions chargées : alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06	=!=	Erreur : option "Option" non trouvée
+2019-02-21 10:48:06		Option modifiée : weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 10:48:06		Option modifiée : weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 10:48:06		Option modifiée : weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 10:48:06		Option modifiée : weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 10:48:06		Option modifiée : weechat.look.buffer_time_format = "${color:252}%H${color:245}%M${color:240}%S"  (défaut : "%H:%M:%S")
+2019-02-21 10:48:06		Option modifiée : weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 10:48:06		Option modifiée : weechat.look.mouse = on  (défaut : off)
+2019-02-21 10:48:06		Option modifiée : weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 10:48:06		Option modifiée : weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 10:48:06		Option modifiée : weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 10:48:06		Option modifiée : weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 10:48:06		Option modifiée : weechat.color.chat_delimiters = 29  (défaut : green)
+2019-02-21 10:48:06		Option modifiée : weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 10:48:06		Option modifiée : weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 10:48:06		Option modifiée : weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 10:48:06		Option modifiée : weechat.color.chat_prefix_suffix = 24  (défaut : green)
+2019-02-21 10:48:06		Option modifiée : weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 10:48:06		Option modifiée : weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 10:48:06		Option modifiée : weechat.color.separator = 60  (défaut : blue)
+2019-02-21 10:48:06		Option modifiée : weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 10:48:06		Option modifiée : irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 10:48:06		Option modifiée : irc.color.topic_new = 36  (défaut : white)
+2019-02-21 10:48:06		Option modifiée : irc.color.topic_old = 244  (défaut : default)
+2019-02-21 10:48:07		Options sauvegardées dans irc.conf
+2019-02-21 10:48:07		Options sauvegardées dans irc.conf
+2019-02-21 10:48:07		Options sauvegardées dans irc.conf
+2019-02-21 10:48:59	=!=	Erreur avec la commande "/layout help" (aide sur la commande : /help layout)
+2019-02-21 10:49:07		[core]  /layout  store [<nom>] [buffers|windows]
+2019-02-21 10:49:07		                 apply [<nom>] [buffers|windows]
+2019-02-21 10:49:07		                 leave
+2019-02-21 10:49:07		                 del [<nom>] [buffers|windows]
+2019-02-21 10:49:07		                 rename <nom> <nouveau_nom>
+2019-02-21 10:49:07		gestion des dispositions de tampons/fenêtres
+2019-02-21 10:49:07		  store : stocker les tampons/fenêtres courants dans une disposition
+2019-02-21 10:49:07		  apply : appliquer une disposition stockée
+2019-02-21 10:49:07		  leave : quitter la disposition courante (ne met à jour aucune disposition)
+2019-02-21 10:49:07		    del : supprimer les tampons et/ou fenêtres dans une disposition stockée
+2019-02-21 10:49:07		          (si ni "buffers" ni "windows" n'est donné après le nom, la disposition est supprimée)
+2019-02-21 10:49:07		 rename : renommer une disposition
+2019-02-21 10:49:07		    nom : nom pour la disposition stockée (par défaut "default")
+2019-02-21 10:49:07		buffers : stocker/appliquer seulement pour les tampons (ordre des tampons)
+2019-02-21 10:49:07		windows : stocker/appliquer seulement pour les fenêtres (le tampon affiché par chaque fenêtre)
+2019-02-21 10:49:07		Sans paramètre, cette commande affiche les dispositions stockées.
+2019-02-21 10:49:07		La disposition courante peut être sauvegardée sur la commande /quit avec l'option "weechat.look.save_layout_on_exit".
+2019-02-21 10:49:35		Disposition des tampons+fenêtres stockée dans "1" (disposition courante : 1)
+2019-02-21 10:50:24	=!=	Erreur : option "buffers.color.current_bg" non trouvée
+2019-02-21 10:54:32		perl : chargement du script "/home/gratz/.weechat/perl/colorize_lines.pl"
+2019-02-21 10:54:32		perl : script "colorize_lines" chargé, version 3.6 (Colorize users' text in chat area with their nick color, including highlights)
+2019-02-21 10:55:42		Option modifiée : weechat.bar.input.items = "+buffer_short_name [+mode_indicator+(away)+ input_search+ input_paste+ vi_buffer+] input_text+minimal"  (défaut : "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2019-02-21 10:56:21	=!=	Erreur : option "buffers.color.current_fg" non trouvée
+2019-02-21 10:56:25	=!=	Erreur : option "buffers.color.default_fg" non trouvée
+2019-02-21 10:56:29	=!=	Erreur : option "buffers.color.hotlist_message_fg" non trouvée
+2019-02-21 10:56:33	=!=	Erreur : option "buffers.color.none_channel_fg" non trouvée
+2019-02-21 10:56:38	=!=	Erreur : option "buffers.look.show_number" non trouvée
+2019-02-21 10:56:42	=!=	Erreur : option "weechat.bar.buffers.hidden" non trouvée
+2019-02-21 10:56:46	=!=	Erreur : option "weechat.bar.buffers.items" non trouvée
+2019-02-21 10:56:50		Option modifiée : weechat.color.chat = 36  (défaut : default)
+2019-02-21 10:56:54		Option modifiée : weechat.color.chat_delimiters = 238  (défaut : green)
+2019-02-21 10:56:58		Option modifiée : weechat.color.chat_inactive_window = 240  (défaut : default)
+2019-02-21 10:57:04		Option modifiée : weechat.color.chat_inactive_window = 230  (défaut : default)
+2019-02-21 10:57:08		Option modifiée : weechat.color.chat_inactive_window = 239  (défaut : default)
+2019-02-21 10:57:11		Option modifiée : weechat.color.chat_inactive_window = 245  (défaut : default)
+2019-02-21 10:57:17		Option modifiée : weechat.color.chat_prefix_more = 238  (défaut : lightmagenta)
+2019-02-21 10:57:20		Option modifiée : weechat.color.chat_prefix_suffix = 196  (défaut : green)
+2019-02-21 10:57:25		Option modifiée : weechat.color.chat_prefix_suffix = 12  (défaut : green)
+2019-02-21 10:57:36		Option modifiée : weechat.color.status_name = 202  (défaut : white)
+2019-02-21 10:57:43		Notification changée pour "core.weechat" : "all" à "message"
+2019-02-21 10:57:43		Notification changée pour "irc.server.QuakeNet" : "all" à "message"
+2019-02-21 10:57:43		Notification changée pour "perl.highmon" : "all" à "message"
+2019-02-21 10:57:43		Notification changée pour "irc.QuakeNet.#gzcrypto" : "all" à "message"
+2019-02-21 10:57:43		Notification changée pour "irc.QuakeNet.#gzdev" : "all" à "message"
+2019-02-21 10:57:43		Notification changée pour "irc.QuakeNet.#geekzonefr" : "all" à "message"
+2019-02-21 10:57:43		Option modifiée : weechat.look.buffer_notify_default = message  (défaut : all)
+2019-02-21 10:57:48		Option modifiée : weechat.look.buffer_time_format = ""  (défaut : "%H:%M:%S")
+2019-02-21 10:58:15		Option modifiée : weechat.color.chat_inactive_window = 249  (défaut : default)
+2019-02-21 10:58:28		Option modifiée : weechat.look.color_real_white = on  (défaut : off)
+2019-02-21 10:58:40		Option modifiée : weechat.look.color_real_white = on  (défaut : off)
+2019-02-21 10:59:13		Option modifiée : weechat.color.chat = 40  (défaut : default)
+2019-02-21 10:59:16		Option modifiée : weechat.color.chat = 15  (défaut : default)
+2019-02-21 10:59:27		Option modifiée : weechat.color.chat = 15  (défaut : default)
+2019-02-21 10:59:42		Option modifiée : weechat.look.save_layout_on_exit = all  (défaut : none)
+2019-02-21 10:59:45		Option modifiée : weechat.look.save_layout_on_exit = all  (défaut : none)
+2019-02-21 10:59:54		Option modifiée : weechat.look.separator_vertical = " "  (défaut : "")
+2019-02-21 11:00:15		[look] (weechat.conf)
+2019-02-21 11:00:15		  weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 11:00:15		  weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 11:00:15		  weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 11:00:15		  weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 11:00:15		  weechat.look.buffer_notify_default = message  (défaut : all)
+2019-02-21 11:00:15		  weechat.look.buffer_time_format = ""  (défaut : "%H:%M:%S")
+2019-02-21 11:00:15		  weechat.look.color_real_white = on  (défaut : off)
+2019-02-21 11:00:15		  weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 11:00:15		  weechat.look.mouse = on  (défaut : off)
+2019-02-21 11:00:15		  weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 11:00:15		  weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 11:00:15		  weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 11:00:15		  weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 11:00:15		  weechat.look.save_layout_on_exit = all  (défaut : none)
+2019-02-21 11:00:15		  weechat.look.separator_vertical = " "  (défaut : "")
+2019-02-21 11:00:15		[color] (weechat.conf)
+2019-02-21 11:00:15		  weechat.color.chat = 15  (défaut : default)
+2019-02-21 11:00:15		  weechat.color.chat_delimiters = 238  (défaut : green)
+2019-02-21 11:00:15		  weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 11:00:15		  weechat.color.chat_inactive_window = 249  (défaut : default)
+2019-02-21 11:00:15		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 11:00:15		  weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 11:00:15		  weechat.color.chat_prefix_more = 238  (défaut : lightmagenta)
+2019-02-21 11:00:15		  weechat.color.chat_prefix_suffix = 12  (défaut : green)
+2019-02-21 11:00:15		  weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 11:00:15		  weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 11:00:15		  weechat.color.separator = 60  (défaut : blue)
+2019-02-21 11:00:15		  weechat.color.status_name = 202  (défaut : white)
+2019-02-21 11:00:15		[bar] (weechat.conf)
+2019-02-21 11:00:15		  weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 11:00:15		  weechat.bar.input.items = "+buffer_short_name [+mode_indicator+(away)+ input_search+ input_paste+ vi_buffer+] input_text+minimal"  (défaut : "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2019-02-21 11:00:15		[color] (irc.conf)
+2019-02-21 11:00:15		  irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 11:00:15		  irc.color.topic_new = 36  (défaut : white)
+2019-02-21 11:00:15		  irc.color.topic_old = 244  (défaut : default)
+2019-02-21 11:00:15		[server_default] (irc.conf)
+2019-02-21 11:00:15		  irc.server_default.nicks = "gratz,gratz1,gratz2,gratz3,gratz4"  (défaut : "")
+2019-02-21 11:00:15		  irc.server_default.username = "gratz"  (défaut : "")
+2019-02-21 11:00:15		[server] (irc.conf)
+2019-02-21 11:00:15		  irc.server.QuakeNet.addresses = "irc.quakenet.org"  (défaut si nul : "")
+2019-02-21 11:00:15		  irc.server.QuakeNet.autoconnect = on  (défaut si nul : off)
+2019-02-21 11:00:15		  irc.server.QuakeNet.autojoin = "#gzcrypto,#gzdev,#geekzonefr"  (défaut si nul : "")
+2019-02-21 11:00:15		37 options avec valeur changée
+2019-02-21 11:00:15		fifo : tube fermé
+2019-02-21 11:00:21		Scripts perl chargés : atcomplete, colorize_lines, highmon, hl_here
+2019-02-21 11:00:21		Scripts python chargés : autoauth, autoconf, autoconnect, autojoin, colorize_nicks
+2019-02-21 11:00:21		Scripts lua chargés : emoji
+2019-02-21 11:00:21		script : 358 scripts pour WeeChat 1.9.1
+2019-02-21 11:00:21		Extensions chargées : alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21	=!=	Erreur : option "Option" non trouvée
+2019-02-21 11:00:21		Option modifiée : weechat.look.bar_more_down = "▼"  (défaut : "++")
+2019-02-21 11:00:21		Option modifiée : weechat.look.bar_more_left = "◀"  (défaut : "<<")
+2019-02-21 11:00:21		Option modifiée : weechat.look.bar_more_right = "▶"  (défaut : ">>")
+2019-02-21 11:00:21		Option modifiée : weechat.look.bar_more_up = "▲"  (défaut : "--")
+2019-02-21 11:00:21		Option modifiée : weechat.look.buffer_notify_default = message  (défaut : all)
+2019-02-21 11:00:21		Option modifiée : weechat.look.buffer_time_format = ""  (défaut : "%H:%M:%S")
+2019-02-21 11:00:21		Option modifiée : weechat.look.color_real_white = on  (défaut : off)
+2019-02-21 11:00:21		Option modifiée : weechat.look.item_buffer_filter = "•"  (défaut : "*")
+2019-02-21 11:00:21		Option modifiée : weechat.look.mouse = on  (défaut : off)
+2019-02-21 11:00:21		Option modifiée : weechat.look.prefix_join = "▬▬▶"  (défaut : "-->")
+2019-02-21 11:00:21		Option modifiée : weechat.look.prefix_quit = "◀▬▬"  (défaut : "<--")
+2019-02-21 11:00:21		Option modifiée : weechat.look.prefix_suffix = "│"  (défaut : "|")
+2019-02-21 11:00:21		Option modifiée : weechat.look.read_marker_string = "─"  (défaut : "- ")
+2019-02-21 11:00:21		Option modifiée : weechat.look.save_layout_on_exit = all  (défaut : none)
+2019-02-21 11:00:21		Option modifiée : weechat.look.separator_vertical = " "  (défaut : "")
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat = 15  (défaut : default)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_delimiters = 238  (défaut : green)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_host = 24  (défaut : cyan)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_inactive_window = 249  (défaut : default)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (défaut : "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_nick_self = _white  (défaut : white)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_prefix_more = 238  (défaut : lightmagenta)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_prefix_suffix = 12  (défaut : green)
+2019-02-21 11:00:21		Option modifiée : weechat.color.chat_time = 214  (défaut : default)
+2019-02-21 11:00:21		Option modifiée : weechat.color.nicklist_away = 244  (défaut : cyan)
+2019-02-21 11:00:21		Option modifiée : weechat.color.separator = 60  (défaut : blue)
+2019-02-21 11:00:21		Option modifiée : weechat.color.status_name = 202  (défaut : white)
+2019-02-21 11:00:21		Option modifiée : weechat.bar.buflist.items = "buflist"  (défaut : "")
+2019-02-21 11:00:21		Option modifiée : weechat.bar.input.items = "+buffer_short_name [+mode_indicator+(away)+ input_search+ input_paste+ vi_buffer+] input_text+minimal"  (défaut : "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2019-02-21 11:00:21		Option modifiée : irc.color.reason_quit = 244  (défaut : default)
+2019-02-21 11:00:21		Option modifiée : irc.color.topic_new = 36  (défaut : white)
+2019-02-21 11:00:21		Option modifiée : irc.color.topic_old = 244  (défaut : default)
+2019-02-21 11:00:21		Options sauvegardées dans irc.conf
+2019-02-21 11:00:21		Options sauvegardées dans irc.conf
+2019-02-21 11:00:21		Options sauvegardées dans irc.conf

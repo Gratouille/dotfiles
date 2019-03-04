@@ -26,8 +26,8 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git 
-	zsh-autosuggestions 
+	git
+	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
 
@@ -71,7 +71,7 @@ DISABLE_UPDATE_PROMPT=true
 #unsetopt EXTENDEDGLOB
 #compinit -C
 
-autoload -Uz compinit 
+autoload -Uz compinit
 if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
 	compinit;
 else
@@ -90,8 +90,9 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 #POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=''
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs nvm)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time dir_writable ip ram load)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time dir_writable ip ram load)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(nvm dir_writable ip)
 
 POWERLEVEL9K_NVM_DEFAULT_BACKGROUND='yellow'
 
@@ -119,7 +120,7 @@ POWERLEVEL9K_VCS_GIT_ICON=$'\uf1d2'
 #POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON=$'\uf0aa '
 
 # VCS colours
-#POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='11'	
+#POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='11'
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND='41'
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='yellow'
 POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
@@ -136,23 +137,11 @@ POWERLEVEL9K_STATUS_OK_FOREGROUND='white'
 POWERLEVEL9K_STATUS_ERROR_BACKGROUND='160'
 POWERLEVEL9K_STATUS_ERROR_FOREGROUND='white'
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-# Defer initialization of nvm until nvm, node or a node-dependent command is
-# run. Ensure this block is only run once if .bashrc gets sourced multiple times
-# by checking whether __init_nvm is a function.
-#if [ -s "$HOME/.nvm/nvm.sh" ] && [ ! "$(whence -w __init_nvm)" = function ]; then
-#  export NVM_DIR="$HOME/.nvm"
-#  [ -s "$NVM_DIR/zsh_completion" ] && . "$NVM_DIR/zsh_completion"
-#  declare -a __node_commands=('nvm' 'node' 'npm' 'yarn' 'gulp' 'grunt' 'webpack')
-#  function __init_nvm() {
-#    for i in "${__node_commands[@]}"; do unalias $i; done
-#    . "$NVM_DIR"/nvm.sh
-#    unset __node_commands
-#    unset -f __init_nvm
-#  }
-#  for i in "${__node_commands[@]}"; do alias $i='__init_nvm && '$i; done
-#fi
+
+source $ZSH/oh-my-zsh.sh
+
